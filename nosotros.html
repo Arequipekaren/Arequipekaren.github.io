@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="shortcut icon" href="imagenes/logocd.png"> -->
+  <link rel="website icon" type="png" href="imagenes/logocd.png">
+  <title>La Casa Del Dulce</title>
+</head>
+
+<body id="volver" class="cuerpo">
+  <!--========================================================== -->
+  <!-- ENCABEZADO -->
+  <!--========================================================== -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3" style="background-color: #000000;" id="menu">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <span class="fs-5 text-end fw-bold">
+          <img src="imagenes/logocd.png" width="90px" height="85px" alt="" />
+        </span>
+      </a>
+
+      <button style="background-color: white; border-color: white;" class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="list navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="vaina vaina1 nav-item mt-3 mb-3">
+            <a class="link text-light" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="vaina vaina2 nav-item mt-3 mb-3">
+            <a class="link text-light" href="index.html#postres">Postres</a>
+          </li>
+          <li class="vaina vaina3 nav-item mt-3 mb-3">
+            <a class="link text-light" href="secciondulces.html">Dulces</a>
+          </li>
+          <li class="vaina vaina6 nav-item mt-3 mb-3">
+            <a class="link text-light" href="contacto.html">Encuentranos</a>
+          </li>
+
+
+          <li class="nav-item dropdown vaina vaina7 mt-3 mb-3">
+            <a class="link text-light" href="nosotros.html">
+              Nosotros
+            </a>
+
+          </li>
+        </ul>
+
+
+        <div class="text-center text-white" style="background-color: #000000;">
+          <div class="container">
+            <div class="" style="background-color: #000000;">
+              <div class="container pb-0">
+                <section class="mb-1">
+
+                  <div class="container p-4 pb-4">
+
+                    <div class="box">
+
+                      <div class="contenedorredsocial">
+
+                        <div class="boton">
+
+                          <div h class="icono">
+                            <i class="bi bi-facebook" data-bs-target="_blank" aria-hidden="true"></i>
+                          </div>
+
+                          <span class="social">
+                            <a href="https://www.facebook.com/profile.php?id=61550045412835"
+                              target="_blank">Facebook</a>
+                          </span>
+
+                        </div>
+
+                        <!-- <div class="boton">
+              
+                          <div h class="icono">
+                            <i class="bi bi-instagram" data-bs-target="_blank" aria-hidden="true"></i>
+                          </div>
+              
+                          <span class="social">
+                            <a href="https://www.instagram.com/lacasadeldulcecornejo/"
+                              target="_blank">Instagram</a>
+                          </span>
+              
+                        </div> -->
+
+                        <div class="boton">
+
+                          <div h class="icono">
+                            <i class="bi bi-whatsapp" data-bs-target="_blank" aria-hidden="true"></i>
+                          </div>
+
+                          <span class="social">
+                            <a href="https://wa.me/573132470536?text=Hola!,%20podrias%20brindarme%20más%20información%20de"
+                              target="_blank">Whatsapp</a>
+                          </span>
+
+                        </div>
+
+                        <!-- <div class="boton">
+              
+                          <div h class="icono">
+                            <i class="bi bi-envelope" data-bs-target="_blank" aria-hidden="true"></i>
+                          </div>
+              
+                          <span class="social">
+                            <a href="https://mail.google.com/mail/u/1/?hl=es#inbox?compose=DmwnWrRlRQhtQlqvpMhkjblxZXmTfmMWfPfCvqRRXMKGWNKnJVtslnlLqnssKXgGwvXKpRvxNhFg"
+                              target="_blank"> Gmail </a>
+                          </span>
+                          
+                        </div> -->
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--==========================================================-->
+  <!--BODY-->
+  <!--==========================================================-->
+
+
+
+
+
+  <div class="data-container mb-5" id="titulos">
+    <span id="btn1" class="botonnosotros"
+        onclick='document.getElementById("titulo").innerHTML = nombre; imgSlider2("img/nosotros1.jpg")'>Misión</span>
+    <span id="btn2" class="botonnosotros"
+        onclick='document.getElementById("titulo").innerHTML = apellido; imgSlider2("img/nosotros2.jpg") '>Visión</span>
+    <span id="btn3" class="botonnosotros"
+        onclick='document.getElementById("titulo").innerHTML = segundo + tercero; imgSlider2("img/nosotros3.jpg") '>Historia</span>
+</div>
+<div class="row nosotroscolumna">
+  <div class="col-7 textonosotros">
+    <p id="titulo" class="fs-4">Nuestra empresa ofrece a nuestros clientes
+        productos con la mejor calidad buscando endulzar su vida y hacer
+        de esos momentos inolvidables. Nos dedicamos a la comercialización de dulces tradicionales y
+        postres,
+        cuidadosamente seleccionados para su venta. Somos un equipo comprometido a la mejora
+        continua y al bienestar de los nuestros.</p></div>
+        <div class="col-5 divimagennosotros">
+          <img src="img/nosotros1.jpg" alt="" class="imagennosotros" style="margin-bottom: 50px; margin-top: 0px;">
+      </div>
+</div>
+
+<script class="py-5" id="var">
+    var nombre = "Nuestra empresa ofrece a nuestros clientes productos con la mejor calidad buscando endulzar su vida y hacer de esos momentos inolvidables. Nos dedicamos a la comercialización de dulces tradicionales y postres, cuidadosamente seleccionados para su venta. Somos un equipo comprometido a la mejora continua y al bienestar de los nuestros.";
+    var apellido = "Queremos llegar a ser la opción preferida de nuestros clientes cuando se trate de dulcerías y convertirnos en una empresa más grande donde haya una amplia cantidad de productos. Aspiramos a seguir ofreciendo nuestros productos y servicios a más personas brindándoles los mejores sabores y la felicidad a cada uno de ellos. Deseamos ser reconocidos y recordados por lo que ofrecemos y por el buen trato al cliente.";
+    var segundo = "Somos una empresa dedicada a la comercialización de dulces tradicionales y postres. Esta se creó en el año 202 después de cerrar un antiguo negocio debido a la pandemia, se empezó vendiendo conservas de dulces y luego se implementaron fresas con crema, postres de tres leches con maracuyá y galletas.";
+    var tercero = "  Aunque todavía somos un emprendimiento pequeño queremos seguir luchando para convertirnos en una mejor empresa donde podamos ofrecer a nuestros clientes los mejores productos a base de ingredientes de la región y deleitar a todo aquel que los pruebe.";
+    // document.getElementById("titulo").innerHTML = nombre + apellido;
+
+    function imgSlider2(anything){
+        document.querySelector('.imagennosotros').src=anything;
+    }
+</script>
+
+  <!-- ICONOS -->
+
+  <section>
+
+    <div class="contenedor-botones fixed-bottom">
+
+      <div class="redes">
+
+        <a href="https://wa.me/573132470536?text=Hola!,%20podrias%20brindarme%20más%20información%20de" target="_blank"
+          class="whats border" style="border-color:  #25D366;">
+          <i class="bi bi-whatsapp fa-2x"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <!--========================================================== -->
+  <!--FOOTER-->
+  <!--========================================================== -->
+
+   <footer class="bg-dark text-white text-center py-3">
+    <div class="container p-3 py-1 mt-1 mb-0">
+      <div class="row" id="icon_">
+        <div class="col" id="ocin">
+          <a href="https://www.facebook.com/profile.php?id=61550045412835" class="icon1 btn btn-outline btn-floating " target="_blank"><i class="bi bi-facebook"></i></a>
+          <span>
+            <a class="text-white text-decoration-none">
+              La Casa del Dulce
+            </a>
+          </span>
+        </div>
+        <div class="col" id="ocin">
+          <a href="https://wa.me/573132470536?text=Hola!,%20podrias%20brindarme%20más%20información%20de" class="icon3 btn btn-outline btn-floating m-1" target="_blank" role="button"><i
+              class="bi bi-whatsapp"></i></a>
+          <span>
+            <a class="text-white text-decoration-none">
+              +57 313 2470536
+            </a>
+          </span>
+        </div>
+        <div class="col" id="ocin">
+          <a href="https://www.instagram.com/lacasadeldulcecornejo/" class="icon2 btn btn-outline btn-floating m-1" target="_blank" role="button"><i
+              class="bi bi-instagram"></i>
+          </a>
+          <span>
+            <a class="text-white text-decoration-none">
+              @la casa del dulce cornejo
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer> 
+  <div class="text-center p-3 text-white" style="background-color: #000000;">
+    La Casa Del Dulce © 2023 Copyright
+  </div>
+
+  <!-- <footer class="bg-dark text-white text-center py-3">
+    <div class="container p-3 py-1 mt-1 mb-0">
+      <div class="row" id="icon_">
+        <div class="col" id="ocin">
+          <a class="icon1 btn btn-outline btn-floating " target="_blank"><i class="bi bi-facebook"></i></a>
+          <span>
+            <a class="text-white text-decoration-none">
+              La Casa del Dulce
+            </a>
+          </span>
+        </div>
+        <div class="col" id="ocin">
+          <a class="icon3 btn btn-outline btn-floating m-1" target="_blank" role="button"><i
+              class="bi bi-whatsapp"></i></a>
+          <span>
+            <a class="text-white text-decoration-none">
+              +57 313 2470536
+            </a>
+          </span>
+        </div>
+        <div class="col" id="ocin">
+          <a class="icon2 btn btn-outline btn-floating m-1" target="_blank" role="button"><i
+              class="bi bi-instagram"></i>
+          </a>
+          <span>
+            <a class="text-white text-decoration-none">
+              @la casa del dulce cornejo
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="text-center p-3 text-white" style="background-color: #000000;">
+    La Casa Del Dulce © 2023 Copyright
+  </div> -->
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
